@@ -1740,6 +1740,12 @@
 		(uuid "deddd85f-fb0d-4bb2-a3fa-5c79597e73d0")
 	)
 	(junction
+		(at 138.43 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2205750-dbb2-42d0-93d9-fecd1a484402")
+	)
+	(junction
 		(at 134.62 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2269,6 +2275,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 40.64) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4547bd-96ea-4b23-9def-175df353e851")
+	)
+	(wire
+		(pts
 			(xy 232.41 139.7) (xy 246.38 139.7)
 		)
 		(stroke
@@ -2296,6 +2312,16 @@
 			(type default)
 		)
 		(uuid "250b7ff6-ebcc-4873-9505-a7f2167c2139")
+	)
+	(wire
+		(pts
+			(xy 82.55 41.91) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253b82c2-c322-4645-b659-c5fab48cbff3")
 	)
 	(wire
 		(pts
@@ -3269,6 +3295,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 41.91) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42eb939-e89a-4a46-8c0a-3452438e2a1a")
+	)
+	(wire
+		(pts
 			(xy 273.05 140.97) (xy 273.05 148.59)
 		)
 		(stroke
@@ -3326,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "d08277cb-b1d2-4578-84e1-262b51545c9e")
-	)
-	(wire
-		(pts
-			(xy 138.43 40.64) (xy 138.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16d2e15-0892-4574-933b-8534b874cff7")
 	)
 	(wire
 		(pts
@@ -3556,6 +3582,16 @@
 			(type default)
 		)
 		(uuid "f87242e2-5f95-4323-b75b-2826adacf27d")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e1ef01-deab-4e23-bf26-b462df7c8362")
 	)
 	(wire
 		(pts
@@ -4237,6 +4273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd832861-95fa-4935-9566-f7fea61bd4ba")
 		)
@@ -4439,6 +4484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "73c7610d-ac94-4dba-8f9f-197559810805")
 		)
@@ -4520,6 +4574,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 187.96 114.3 0)
 			(effects
 				(font
@@ -4928,6 +4991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "107552c5-7d66-4d97-95fa-efdbc296a050")
 		)
@@ -4989,6 +5061,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 273.05 137.16 0)
 			(effects
 				(font
@@ -5132,6 +5213,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 143.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39610b8e-b838-4b63-8ddf-462f84f2fc2e")
 		)
@@ -5193,6 +5283,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 265.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 265.43 137.16 0)
 			(effects
 				(font
@@ -5402,6 +5501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27fb11ca-2ae9-4b28-8a85-ed899dc7c845")
 		)
@@ -5528,6 +5636,15 @@
 			)
 		)
 		(property "Description" "A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 106.68 107.95 0)
 			(effects
 				(font
@@ -6602,6 +6719,16 @@
 				(justify right)
 			)
 			(uuid "a5480bcd-edc4-468b-a6d4-eb9f7d4b1031")
+		)
+		(pin "+2.5V_REF" input
+			(at 82.55 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b40b97ce-aecf-4327-9986-7160878420fe")
 		)
 		(instances
 			(project "digital_waters"

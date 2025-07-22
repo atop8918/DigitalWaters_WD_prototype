@@ -3447,6 +3447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 34.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b97535fe-602c-44cd-943e-184e1f3417ab")
 		)
@@ -3515,6 +3524,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 25.4 38.1 0)
 			(effects
 				(font
@@ -3593,6 +3611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1288519-caad-4a47-9ee1-5f37efc43971")
 		)
@@ -3626,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 95.25 68.58 90)
 			(effects
 				(font
@@ -3653,6 +3680,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 95.25 72.39 0)
 			(effects
 				(font
@@ -3693,7 +3729,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 74.93 35.814 90)
 			(effects
 				(font
@@ -3720,6 +3756,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -3791,6 +3836,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5 Keywords: usb esd protection suppression transient"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 31.75 146.05 0)
 			(effects
 				(font
@@ -3875,6 +3929,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc90370b-55b4-4aa8-aa3a-3b59aae65953")
 		)
@@ -3934,6 +3997,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 69.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -4029,6 +4101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ac28cb1-e83f-4de6-91a6-95299a693304")
 		)
@@ -4090,6 +4171,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -4169,6 +4259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 19.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccf32825-dc75-47fc-a401-e98fe04c2571")
 		)
@@ -4228,6 +4327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -4298,6 +4406,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5 Keywords: usb esd protection suppression transient"
+			(at 160.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -4384,6 +4501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9148ba64-0874-44c5-93f2-8292f0d71ac2")
 		)
@@ -4453,6 +4579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 16.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d0d1546-71bf-47a4-8f7e-37f6601fbeb8")
 		)
@@ -4489,7 +4624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 95.758 81.534 0)
 			(effects
 				(font
@@ -4517,6 +4652,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -4594,6 +4738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d08bd69a-8568-4a29-b820-08df75f074c3")
 		)
@@ -4653,6 +4806,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 76.2 72.39 0)
 			(effects
 				(font
@@ -4749,6 +4911,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "87f5ffdf-e528-482a-9b8d-dc1a2e7a9464")
 		)
@@ -4809,6 +4980,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 160.02 29.21 0)
 			(effects
 				(font
@@ -4896,6 +5076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d31c1fdc-5ac8-4250-9956-55d248eb7767")
 		)
@@ -4957,6 +5146,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 170.18 120.65 0)
 			(effects
 				(font
@@ -5034,6 +5232,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 190.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f13c8638-ef3c-44f2-b234-6f97fe3040dd")
 		)
@@ -5101,6 +5308,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55d93474-9fc6-40d7-b9b9-f5c0c42d4467")
 		)
@@ -5134,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 88.646 148.59 0)
 			(effects
 				(font
@@ -5162,6 +5378,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 95.25 147.32 0)
 			(effects
 				(font
@@ -5231,6 +5456,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -5312,6 +5546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79d4cfe0-b8c5-4a1d-bbbd-dcb03921e154")
 		)
@@ -5383,6 +5626,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 17.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc341462-2cbf-44a7-92b7-1e19a8cdb51c")
 		)
@@ -5417,7 +5669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 231.14 109.2199 0)
 			(effects
 				(font
@@ -5445,6 +5697,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -5522,6 +5783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11b91672-e741-43b7-9584-ca1d541afd62")
 		)
@@ -5555,7 +5825,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 87.63 137.16 90)
 			(effects
 				(font
@@ -5582,6 +5852,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 87.63 140.97 0)
 			(effects
 				(font
@@ -5652,6 +5931,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 116.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 116.84 154.94 0)
 			(effects
 				(font
@@ -5745,6 +6033,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 52.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7017314-7f20-4438-a84a-636eecfd6e01")
 		)
@@ -5805,6 +6102,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 55.88 33.02 0)
 			(effects
 				(font
@@ -5899,6 +6205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "173975a0-a30e-4246-9722-a5abd48125a2")
 		)
@@ -5950,7 +6265,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 220.98 96.52 90)
 			(effects
 				(font
@@ -5977,6 +6292,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -6055,6 +6379,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "198e3a8b-e403-4fd4-9cb1-6fd06a2482aa")
 		)
@@ -6107,7 +6440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 85.09 39.3699 0)
 			(effects
 				(font
@@ -6135,6 +6468,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -6176,7 +6518,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "990"
 			(at 187.96 93.98 90)
 			(effects
 				(font
@@ -6203,6 +6545,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -6270,6 +6621,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 205.74 107.95 0)
 			(effects
 				(font

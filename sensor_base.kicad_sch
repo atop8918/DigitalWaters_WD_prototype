@@ -1873,6 +1873,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 113.03) (xy 81.28 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3f63a9-072e-49fe-99b2-8d1ffe52a1fe")
+	)
+	(wire
+		(pts
 			(xy 243.84 44.45) (xy 243.84 43.18)
 		)
 		(stroke
@@ -2083,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 113.03) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2b8ccc-050f-4356-9591-799939bf7213")
+	)
+	(wire
+		(pts
 			(xy 143.51 20.32) (xy 144.78 20.32)
 		)
 		(stroke
@@ -2260,16 +2280,6 @@
 			(type default)
 		)
 		(uuid "6352b523-956f-4bc8-8d22-db186e6f954b")
-	)
-	(wire
-		(pts
-			(xy 81.28 110.49) (xy 81.28 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "670bf026-b11f-4573-b932-f70ddc569b1a")
 	)
 	(wire
 		(pts
@@ -2503,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 38.1 67.31)
+			(xy 35.56 67.31) (xy 38.1 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3081,7 +3091,7 @@
 		)
 		(uuid "52153eb4-854e-4472-8d58-63b6e28a539f")
 	)
-	(text "Gain = TODO"
+	(text "Gain = 10\n"
 		(exclude_from_sim no)
 		(at 17.526 120.396 0)
 		(effects
@@ -3116,9 +3126,9 @@
 		)
 		(uuid "5b951664-454d-41c6-8e75-0cccb5e31180")
 	)
-	(text "Gain = TODO"
+	(text "Assuming 2Amp max; Vsense = 2*0.1 = 200mV\nGain = 4.096V/200mV = ~20"
 		(exclude_from_sim no)
-		(at 15.24 51.562 0)
+		(at 16.002 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3164,7 +3174,7 @@
 		)
 		(uuid "8019eff9-0e98-4677-b9ec-597c8081cfc1")
 	)
-	(text "R42 and R21 should be matched.\nR46 and R9  should be matched."
+	(text "R42 and R46 should be matched.\nR21 and R9  should be matched."
 		(exclude_from_sim no)
 		(at 95.504 128.524 0)
 		(effects
@@ -3186,7 +3196,7 @@
 		)
 		(uuid "d9ecbae2-3353-42c2-8759-38f406a9b9f6")
 	)
-	(text "5k gives a an average\ncurrent of 0.7mA and Vsense\nof 683mV"
+	(text "1k gives a an average\ncurrent of ~2mA and Vsense\nof ~2V"
 		(exclude_from_sim no)
 		(at 17.018 77.724 0)
 		(effects
@@ -3342,7 +3352,7 @@
 	)
 	(hierarchical_label "+4.096_REF_BUF_A"
 		(shape input)
-		(at 34.29 67.31 180)
+		(at 35.56 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,6 +3405,17 @@
 		)
 		(uuid "9e2ec67a-81dc-446e-bd77-08fd4cbc8531")
 	)
+	(hierarchical_label "+2.5V_REF"
+		(shape input)
+		(at 83.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5881425-7ae1-4eb4-9698-99fb41e19f89")
+	)
 	(hierarchical_label "ADC_VBATT"
 		(shape output)
 		(at 144.78 43.18 0)
@@ -3435,7 +3456,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 113.03 92.71 90)
 			(effects
 				(font
@@ -3462,6 +3483,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 113.03 96.52 0)
 			(effects
 				(font
@@ -3502,7 +3532,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 82.55 26.67 90)
 			(effects
 				(font
@@ -3529,6 +3559,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -3606,6 +3645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95e3071d-fcc7-487b-a9fa-ef6e027d4201")
 		)
@@ -3638,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 61.214 18.288 90)
 			(effects
 				(font
@@ -3665,6 +3713,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 60.96 20.32 0)
 			(effects
 				(font
@@ -3741,6 +3798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 90.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75d9e62b-3cae-4049-8a48-3fd02dff412d")
 		)
@@ -3791,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "1k"
 			(at 42.418 70.358 90)
 			(effects
 				(font
@@ -3818,6 +3884,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -3859,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 73.914 101.092 90)
 			(effects
 				(font
@@ -3886,6 +3961,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 73.66 99.06 0)
 			(effects
 				(font
@@ -3961,6 +4045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "194688c7-f201-4b6d-b3c0-cb7518894118")
 		)
@@ -4021,6 +4114,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 58.42 30.48 0)
 			(effects
 				(font
@@ -4117,6 +4219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a2ef47e-9b25-48cd-8b60-c26227d401df")
 		)
@@ -4150,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 42.164 35.052 90)
 			(effects
 				(font
@@ -4177,6 +4288,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 41.91 33.02 0)
 			(effects
 				(font
@@ -4219,7 +4339,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 83.82 107.9499 0)
 			(effects
 				(font
@@ -4247,6 +4367,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 81.28 106.68 0)
 			(effects
 				(font
@@ -4316,6 +4445,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 218.44 38.1 0)
 			(effects
 				(font
@@ -4395,6 +4533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b97535fe-602c-44cd-943e-184e1f3417ab")
 		)
@@ -4436,7 +4583,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 73.914 91.948 90)
 			(effects
 				(font
@@ -4463,6 +4610,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -4505,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 97.79 39.3699 0)
 			(effects
 				(font
@@ -4533,6 +4689,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 93.98 38.1 0)
 			(effects
 				(font
@@ -4610,6 +4775,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7855ff5-d3d3-44ae-8916-2241ca1daffd")
 		)
@@ -4647,7 +4821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 247.65 40.6399 0)
 			(effects
 				(font
@@ -4675,6 +4849,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 243.84 39.37 0)
 			(effects
 				(font
@@ -4751,6 +4934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c296dfb4-ff11-48ff-9c76-bd3829e5ca0f")
 		)
@@ -4802,7 +4994,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 51.562 40.386 90)
 			(effects
 				(font
@@ -4829,6 +5021,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 49.53 40.64 0)
 			(effects
 				(font
@@ -4906,6 +5107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d2f2eb3-2554-4026-b068-c10bf24868d2")
 		)
@@ -4966,6 +5176,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 245.11 74.93 0)
 			(effects
 				(font
@@ -5042,6 +5261,15 @@
 			)
 		)
 		(property "Description" "Precision, Low-Offset-Voltage, Low-Noise, Low-Input-Bias-Current, Rail-to-Rail I/O, e-trim™ Operational Amplifiers"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 123.19 68.58 0)
 			(effects
 				(font
@@ -5138,6 +5366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da6d928a-e81b-4984-9a26-dcd30505c3ba")
 		)
@@ -5170,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 235.966 37.084 90)
 			(effects
 				(font
@@ -5197,6 +5434,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 236.22 34.29 0)
 			(effects
 				(font
@@ -5239,7 +5485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "800n"
 			(at 124.46 105.4099 0)
 			(effects
 				(font
@@ -5267,6 +5513,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 120.65 104.14 0)
 			(effects
 				(font
@@ -5337,6 +5592,15 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -5417,6 +5681,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d73f5af3-c373-4127-924b-18226c7644f1")
 		)
@@ -5449,7 +5722,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10"
 			(at 42.164 25.908 90)
 			(effects
 				(font
@@ -5476,6 +5749,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -5517,7 +5799,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 92.71 81.28 90)
 			(effects
 				(font
@@ -5544,6 +5826,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 92.71 85.09 0)
 			(effects
 				(font

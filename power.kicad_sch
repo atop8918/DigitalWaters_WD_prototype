@@ -5282,6 +5282,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd10f6-083d-4342-a2c7-47d816fa642a")
 		)
@@ -5388,6 +5397,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 247.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ce6bf59f-311c-46cd-9d3c-ab07f54d7da5")
 		)
@@ -5466,6 +5484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 102.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1173e45-2925-4624-9793-dbf023643841")
 		)
@@ -5527,6 +5554,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 49.53 87.63 0)
 			(effects
 				(font
@@ -5604,6 +5640,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 95.25 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c1ee3a7-ecb3-4962-aac1-0157263eed58")
 		)
@@ -5667,6 +5712,15 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 34.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,6 +5833,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 62.23 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7d18414-b141-4096-882c-2a6ad1d2d3ab")
 		)
@@ -5841,6 +5904,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 262.89 26.67 0)
 			(effects
 				(font
@@ -5919,6 +5991,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6815ef2-b090-4b7d-a44d-4619472777b4")
 		)
@@ -5988,6 +6069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 87.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "609e7044-ae93-4ac2-84d6-7af4c7222899")
 		)
@@ -6048,6 +6138,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -6125,6 +6224,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 40.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba354969-727c-40ce-9948-29214e7043b1")
 		)
@@ -6186,6 +6294,15 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 104.14 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 104.14 20.32 0)
 			(effects
 				(font
@@ -6256,6 +6373,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5 Keywords: usb esd protection suppression transient"
+			(at 266.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 266.7 156.21 0)
 			(effects
 				(font
@@ -6343,6 +6469,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "71280123-7701-4a5b-ace0-aa79ddf7490f")
 		)
@@ -6404,6 +6539,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 109.22 185.42 0)
 			(effects
 				(font
@@ -6474,6 +6618,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5 Keywords: usb esd protection suppression transient"
+			(at 228.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 228.6 156.21 0)
 			(effects
 				(font
@@ -6553,6 +6706,15 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 173.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,6 +6828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8157746-1c79-4445-b046-e6aec17c71cb")
 		)
@@ -6723,6 +6894,15 @@
 			)
 		)
 		(property "Description" "High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -6812,6 +6992,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 54.61 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35e50f8c-193b-48dc-97bf-63cabd47ced2")
 		)
@@ -6882,6 +7071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6efad08e-7172-4bac-a71d-63588005b787")
 		)
@@ -6943,6 +7141,15 @@
 			)
 		)
 		(property "Description" "2.500V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -7024,6 +7231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 163.83 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c345d6f-ee33-4742-aebc-ff5e630b3ab1")
 		)
@@ -7081,6 +7297,15 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,6 +7417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dbbb3b4b-cdad-431d-a5e2-9f1a201ab72a")
 		)
@@ -7254,6 +7488,15 @@
 			)
 		)
 		(property "Description" "Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6"
+			(at 96.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -7346,6 +7589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 76.2 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31bbe288-f574-4ed4-b9a7-07865d95d99f")
 		)
@@ -7408,6 +7660,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -7485,6 +7746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 26.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ed20f14-323d-4fa0-8e41-e6d131ce4021")
 		)
@@ -7546,6 +7816,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 41.91 87.63 0)
 			(effects
 				(font
@@ -7616,6 +7895,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 5.3V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5 Keywords: usb esd protection suppression transient"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 59.69 125.73 0)
 			(effects
 				(font
@@ -7702,6 +7990,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 34.29 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "188370d2-41f1-4144-bf74-d39b31ff7f04")
 		)
@@ -7772,6 +8069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2147065-f623-42bd-a019-3106c969e1da")
 		)
@@ -7833,6 +8139,15 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,6 +8260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 63.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92c2e4c0-d1bf-4c65-b357-8f688a211593")
 		)
@@ -8006,6 +8330,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 19.05 185.42 0)
 			(effects
 				(font
@@ -8083,6 +8416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Resistance" ""
+			(at 69.85 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "629f7fc1-577c-4949-a62e-3b4e321c8844")
 		)
@@ -8144,6 +8486,15 @@
 			)
 		)
 		(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
+			(at 237.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 237.49 20.32 0)
 			(effects
 				(font
@@ -8217,6 +8568,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -8351,6 +8711,15 @@
 			)
 		)
 		(property "Description" "4.096V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
 			(at 86.36 127 0)
 			(effects
 				(font
